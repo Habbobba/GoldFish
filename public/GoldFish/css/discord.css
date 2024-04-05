@@ -1,22 +1,39 @@
-#discord-widget .widget-header {display:none !important;}
-#discord-widget .widget-members-online,#discord-widget .widget-member .widget-member-name {color:#000;}
-#discord-widget a.widget-logo  {
-	background-image:none !important;
+#discord-widget .widget-header {
+	display: none !important;
 }
-#discord-widget .widget-theme-light .widget-footer-info ,#discord-widget .widget-header-count {display: none !important}
+
+#discord-widget .widget-members-online, #discord-widget .widget-member .widget-member-name {
+	color: #000;
+}
+
+#discord-widget a.widget-logo {
+	background-image: none !important;
+}
+
+#discord-widget .widget-theme-light .widget-footer-info, #discord-widget .widget-header-count {
+	display: none !important
+}
+
 #discord-widget .widget {
-border-radius: 6px !important;
+	border-radius: 6px !important;
 }
+
 #discord-widget .widget-channel {
-display: none !important;
+	display: none !important;
 }
+
 #discord-widget .widget-body {
-padding:5px !important;
+	padding: 5px !important;
 }
-#discord-widget .widget-footer {padding:6px !important;}
+
+#discord-widget .widget-footer {
+	padding: 6px !important;
+}
+
 #discord-widget .widget-btn-connect {
-width:100% !important;
+	width: 100% !important;
 }
+
 .spinner {
 	-ms-flex-align: center;
 	-ms-flex-pack: center;
@@ -129,8 +146,7 @@ width:100% !important;
 }
 
 @-webkit-keyframes spinner-chasing-dots-bounce {
-	0%,
-	to {
+	0%, to {
 		-webkit-transform: scale(0);
 		transform: scale(0)
 	}
@@ -141,8 +157,7 @@ width:100% !important;
 }
 
 @keyframes spinner-chasing-dots-bounce {
-	0%,
-	to {
+	0%, to {
 		-webkit-transform: scale(0);
 		transform: scale(0)
 	}
@@ -583,8 +598,7 @@ width:100% !important;
 	background-color: rgba(0, 0, 0, .1)
 }
 
-#discord-widget .widget-theme-light .widget-body,
-#discord-widget .widget-theme-light .widget-footer {
+#discord-widget .widget-theme-light .widget-body, #discord-widget .widget-theme-light .widget-footer {
 	background-color: #fff
 }
 
@@ -592,16 +606,13 @@ width:100% !important;
 	background-image: url(/assets/319c6196da7ea2876ecf145b988e73a7.png), url(/assets/8c7c66b44b1087f6ca9edc6cc1245bec.png)
 }
 
-#discord-widget .widget-theme-light .widget-btn-connect,
-#discord-widget .widget-theme-light .widget-footer-info {
+#discord-widget .widget-theme-light .widget-btn-connect, #discord-widget .widget-theme-light .widget-footer-info {
 	color: #000;
 	opacity: .7
 }
 
-#discord-widget .widget-theme-light .widget-channel-name,
-#discord-widget .widget-theme-light .widget-online-members {
+#discord-widget .widget-theme-light .widget-channel-name, #discord-widget .widget-theme-light .widget-online-members {
 	color: #8a8e94
 }
-
 
 /*# sourceMappingURL=index.4c6657590c4c64268f46.css.map*/
